@@ -1,0 +1,19 @@
+contract Hello
+	field amount u256
+
+	func add(a u256, b u256) => u256
+		let c u256 := a + b
+		return c
+	end
+
+	func smth(to address, amount u64) => u256
+		# this is a comment
+		amount := add(amount,
+        amount)
+		# ...
+
+		if a < 2 then
+			return 2
+		end
+	end
+end

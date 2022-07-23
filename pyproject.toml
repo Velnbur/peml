@@ -1,0 +1,10 @@
+[metadata]
+name = "pemlc"
+package_dir = "src"
+author = "Velnbur"
+
+[tool.pytest.ini_options]
+testpaths = [ "tests" ]
+pythonpath = [
+    "src"
+]
